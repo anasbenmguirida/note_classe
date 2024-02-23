@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: whitesmoke;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 600px;
+}
+.navigation a {
+  text-decoration: none;
+  color: rgb(41, 124, 175);
+  font-size: 1.8em;
+  font-weight: 300;
+  padding-left: 30px;
+}
+.navigation a:hover {
+  color: black;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("blur.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  width: 420px;
+  height: 330px;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px 40px;
+  margin-left: 25px;
+}
+.wrapper h4 {
+  font-size: 25px;
+  text-align: center;
+}
+.wrapper .inputbox {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px, 0;
+}
+.inputbox input {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+.inputbox input::placeholder {
+  color: white;
+}
+.inputbox i {
+  color: white;
+  position: absolute;
+  right: 20px;
+  margin-top: 18px;
+}
+.wrapper .remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+  margin-top: 15px;
+}
+.wrapper .remember a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper .bouton {
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  border: none;
+  border-radius: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.wrapper .bouton:hover {
+  transform: scale(1.02, 1.02);
+}
+.tableau {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableau th,
+.tableau td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.tableau th {
+  background-color: #f2f2f2;
+}
+.button2 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.button2 :hover {
+  background-color: darkgreen;
+}
+.second {
+  background-color: gray;
+}
+.titre {
+  margin-top: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

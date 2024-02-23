@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <header>
+    <nav class="navigation">
+      <a href="#Reclamation"> Demande de cerificat</a>
+      <a href="#Apropos">A propos</a>
+      <a href="#contacts">Contacts </a>
+    </nav>
+  </header>
+  <body class="first">
+    <section>
+      <div class="wrapper">
+        <form action="index.php" method="post">
+          <h4>Espace Professeur</h4>
+          <div class="inputbox">
+            <input type="text" name="email_prof" placeholder="Email" />
+            <i class="fas fa-user"></i>
+          </div>
+
+          <div class="inputbox">
+            <input type="password" name="pass_prof" placeholder="Password" />
+
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox" />Se souvenir de moi</label>
+            <a href="#">Mot de passe oublié</a>
+          </div>
+          <input
+            type="submit"
+            name="btn_1"
+            class="bouton"
+            value="Log in"
+          /><br />
+          <br />
+        </form>
+      </div>
+    </section>
+    <!--Pour les etudiants-->
+    <section>
+      <div class="wrapper">
+        <form action="index.php" method="post">
+          <h4>Espace etudiant</h4>
+          <div class="inputbox">
+            <input type="text" name="email_etudiant" placeholder="Email" />
+            <i class="fas fa-user"></i>
+          </div>
+
+          <div class="inputbox">
+            <input
+              type="password"
+              name="pass_etudiant"
+              placeholder="Password"
+            />
+
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="remember">
+            <label><input type="checkbox" />Se souvenir de moi</label>
+            <a href="#">Mot de passe oublier</a>
+          </div>
+          <input
+            type="submit"
+            name="btn_2"
+            class="bouton"
+            value="Log in"
+          /><br />
+          <br />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
